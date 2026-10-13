@@ -29,6 +29,10 @@ export const store = {
     facebook: '#',
   },
 
+  // Wide hero photo (about 16:10, subject on the right, empty space on the left for the headline).
+  heroImage: '/images/hero-pooja-setup.jpg',
+  promoImage: '/images/pooja-samagri-spread.jpg',
+
   currency: 'INR',
   freeShippingNote: 'Delivery details to be confirmed by the store',
 };

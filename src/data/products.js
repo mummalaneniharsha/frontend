@@ -18,7 +18,7 @@ export const products = [
     badge: 'Bestseller',
     art: 'incense',
     variant: 'sandal',
-    image: '/images/agarbathi-brass-holder.jpg',
+    image: '/images/sandalwood-agarbathi.jpg',
   },
   {
     id: 'rose-incense',
@@ -32,7 +32,7 @@ export const products = [
     bestseller: true,
     art: 'incense',
     variant: 'rose',
-    image: null,
+    image: '/images/rose-incense.jpg',
   },
   {
     id: 'traditional-dhoop',

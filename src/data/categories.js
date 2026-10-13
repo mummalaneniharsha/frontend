@@ -9,7 +9,7 @@ export const categories = [
   { id: 'thalis', name: 'Pooja Thalis', blurb: 'Brass & decorated thalis', art: 'thali', tone: 'gold', image: null },
   { id: 'kits', name: 'Pooja Kits', blurb: 'Everything in one box', art: 'kit', tone: 'maroon', image: '/images/daily-pooja-kit.jpg' },
   { id: 'festival', name: 'Festival Essentials', blurb: 'Diwali, Navratri, Ganesh Chaturthi', art: 'marigold', tone: 'saffron', image: '/images/festival-pooja-kit.jpg' },
-  { id: 'samagri', name: 'Other Pooja Samagri', blurb: 'Wicks, bells, kalash & more', art: 'bell', tone: 'ivory', image: null },
+  { id: 'samagri', name: 'Other Pooja Samagri', blurb: 'Wicks, bells, kalash & more', art: 'bell', tone: 'ivory', image: '/images/pooja-samagri-spread.jpg' },
 ];
 
 export const categoryById = Object.fromEntries(categories.map((c) => [c.id, c]));

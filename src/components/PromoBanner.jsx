@@ -1,5 +1,6 @@
 import { useStore } from '../context/StoreContext.jsx';
-import Art from '../art/Art.jsx';
+import { store } from '../data/store.js';
+import ProductImage from './ui/ProductImage.jsx';
 import Button from './ui/Button.jsx';
 import Icon from './ui/Icon.jsx';
 
@@ -35,7 +36,7 @@ export default function PromoBanner() {
           </div>
           <div className="relative min-h-[280px] md:min-h-[440px]">
             <div className="absolute inset-0">
-              <Art kind="thali" tone="gold" viewBox="0 120 400 300" title="Brass pooja thali with kumkum, haldi, flowers and a diya" />
+              <ProductImage image={store.promoImage} art="thali" tone="gold" alt="Daily pooja samagri: chandan, betel leaves and nuts, sacred thread, cotton wicks and rice in brass bowls" />
             </div>
           </div>
         </div>
