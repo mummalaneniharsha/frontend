@@ -6,6 +6,7 @@ import SectionHeading from './ui/SectionHeading.jsx';
 import Button from './ui/Button.jsx';
 import Icon from './ui/Icon.jsx';
 import Price from './ui/Price.jsx';
+import ProductImage from './ui/ProductImage.jsx';
 
 const featuredKit = productById['festival-kit'];
 const dailyKit = productById['daily-pooja-kit'];
@@ -27,7 +28,11 @@ export default function FestivalKits() {
           {/* Feature kit */}
           <article className="relative flex flex-col justify-end overflow-hidden rounded-[28px] bg-maroon-950 text-ivory-50 lg:min-h-[600px]">
             <div className="relative aspect-[5/4] lg:absolute lg:inset-x-0 lg:top-0 lg:aspect-auto lg:h-[66%]">
-              <Art kind="kit" variant="saffron" tone="maroon" viewBox="20 110 360 290" title="Festival pooja essentials gift box" />
+              {featuredKit.image ? (
+                <ProductImage image={featuredKit.image} art="kit" variant="saffron" tone="maroon" alt={featuredKit.name} />
+              ) : (
+                <Art kind="kit" variant="saffron" tone="maroon" viewBox="20 110 360 290" title="Festival pooja essentials gift box" />
+              )}
               <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-b from-transparent to-maroon-950" aria-hidden="true" />
             </div>
             <div className="relative -mt-10 p-6 pt-0 sm:p-9 sm:pt-0 lg:mt-0 lg:pt-9">

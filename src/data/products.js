@@ -18,7 +18,7 @@ export const products = [
     badge: 'Bestseller',
     art: 'incense',
     variant: 'sandal',
-    image: null,
+    image: '/images/agarbathi-brass-holder.jpg',
   },
   {
     id: 'rose-incense',
@@ -73,7 +73,7 @@ export const products = [
     bestseller: true,
     art: 'powder',
     variant: 'kumkum',
-    image: null,
+    image: '/images/kumkum-haldi-bowls.jpg',
   },
   {
     id: 'brass-diya',
@@ -87,7 +87,7 @@ export const products = [
     bestseller: true,
     art: 'diya',
     variant: 'brass',
-    image: null,
+    image: '/images/brass-diya-kalash.jpg',
   },
   {
     id: 'daily-pooja-kit',
@@ -102,7 +102,7 @@ export const products = [
     badge: 'Kit',
     art: 'kit',
     variant: 'maroon',
-    image: null,
+    image: '/images/daily-pooja-kit.jpg',
   },
   {
     id: 'festival-kit',
@@ -117,7 +117,7 @@ export const products = [
     badge: 'Festive',
     art: 'kit',
     variant: 'saffron',
-    image: null,
+    image: '/images/festival-pooja-kit.jpg',
   },
   {
     id: 'jasmine-agarbathi',
