@@ -59,7 +59,7 @@ export const products = [
     bestseller: true,
     badge: 'Popular',
     art: 'camphor',
-    image: null,
+    image: '/images/camphor-tablets.jpg',
   },
   {
     id: 'kumkum-powder',
@@ -130,7 +130,7 @@ export const products = [
     reviews: 29,
     art: 'incense',
     variant: 'jasmine',
-    image: null,
+    image: '/images/agarbathi-brass-holder.jpg',
   },
   {
     id: 'turmeric-haldi',
@@ -193,7 +193,7 @@ export const products = [
     rating: 4.7,
     reviews: 31,
     art: 'thali',
-    image: null,
+    image: '/images/brass-thali-flatlay.jpg',
   },
   {
     id: 'decorated-thali',
@@ -218,7 +218,7 @@ export const products = [
     rating: 4.3,
     reviews: 26,
     art: 'wicks',
-    image: null,
+    image: '/images/pooja-samagri-spread.jpg',
   },
   {
     id: 'brass-bell',

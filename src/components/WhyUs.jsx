@@ -1,6 +1,6 @@
 import { features } from '../data/content.js';
 import { store } from '../data/store.js';
-import Art from '../art/Art.jsx';
+import ProductImage from './ui/ProductImage.jsx';
 import Icon from './ui/Icon.jsx';
 import { Ornament } from './ui/SectionHeading.jsx';
 
@@ -10,7 +10,7 @@ export default function WhyUs() {
       <div className="mx-auto grid max-w-site gap-12 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-16 lg:px-8">
         <div>
           <div className="relative mb-8 hidden aspect-[16/10] overflow-hidden rounded-[24px] ring-1 ring-gold-300/60 sm:block">
-            <Art kind="incense" variant="sandal" tone="ivory" title="Sandalwood agarbathi in a wooden holder" />
+            <ProductImage image={store.aboutImage} art="incense" variant="sandal" tone="ivory" alt="A brass pooja thali laid out with a lit diya, camphor, kumkum, haldi, flowers and agarbathi" />
           </div>
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold-600">About us</p>
           <h2 id="about-title" className="mt-3 font-serif text-[2rem] font-semibold leading-[1.1] text-maroon-900 sm:text-[2.6rem]">

@@ -57,7 +57,7 @@ export default function FestivalKits() {
               <article key={f.id} className="group grid grid-cols-[112px_1fr] overflow-hidden rounded-2xl border border-ivory-300/80 bg-white shadow-soft transition hover:shadow-lift sm:grid-cols-[168px_1fr]">
                 <div className="relative overflow-hidden">
                   <div className="absolute inset-0 transition duration-500 group-hover:scale-105">
-                    <Art kind={f.art} variant={f.variant} tone={f.tone} />
+                    <ProductImage image={f.image} art={f.art} variant={f.variant} tone={f.tone} alt="" />
                   </div>
                 </div>
                 <div className="p-5 sm:p-6">

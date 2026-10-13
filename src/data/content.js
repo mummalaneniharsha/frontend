@@ -10,6 +10,7 @@ export const features = [
 export const festivals = [
   {
     id: 'diwali',
+    image: '/images/brass-diya-kalash.jpg',
     name: 'Diwali',
     note: 'Festival of lights',
     text: 'Diyas, deepam oil, rangoli colours and a complete Lakshmi pooja kit.',
@@ -20,6 +21,7 @@ export const festivals = [
   },
   {
     id: 'navratri',
+    image: '/images/kumkum-haldi-bowls.jpg',
     name: 'Navratri',
     note: 'Nine nights of devotion',
     text: 'Kumkum, chunri, akhand jyoti essentials and a 9-day kit.',
@@ -29,6 +31,7 @@ export const festivals = [
   },
   {
     id: 'ganesh-chaturthi',
+    image: '/images/brass-thali-flatlay.jpg',
     name: 'Ganesh Chaturthi',
     note: 'Welcome Bappa home',
     text: 'Durva, modak moulds, flowers and a ready Ganesh pooja thali.',
